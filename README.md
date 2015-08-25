@@ -1,6 +1,7 @@
-# customsw-UNI-T-UT81B
+# Custom client software for multimeters UNI-T UT81B
 
 The original PC software for controlling multimeters UNI-T UT81B is crappy, isn't it?
+
 Nah, that was a trick question. Of course it is.
 
 I needed to record measurements with these multimeters, possibly simultaneously from more than one multimeter in a single computer, and that software didn't allow the required flexibility - even for a single multimeter. Luckily I managed to reverse-engineer the USB protocol and implement the functionality I needed over Python and py-libUSB. And here is the result. 
